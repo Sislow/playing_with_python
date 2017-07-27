@@ -22,7 +22,6 @@ def menu():
 
 
 def runGame(num):
-	print(num)
 	player_guess = int(input("Guess a number between " + str(min_) + " and " + str(max_) + ": "))
 	if player_guess == num:
 		print("You win!")
